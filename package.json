@@ -6,11 +6,6 @@
     "clean": "rm -rf dist && echo 'Done.'",
     "dev": "bun --watch index.ts"
   },
-  "bun-create": {
-    "preinstall": "echo 'Installing...'", 
-    "postinstall": ["echo 'Done!'"],
-    "start": "bun run echo 'Hello world!'"
-  },
   "devDependencies": {
     "@types/figlet": "^1.5.6",
     "bun-types": "latest"
